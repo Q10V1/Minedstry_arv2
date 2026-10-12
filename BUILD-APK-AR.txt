@@ -1,0 +1,11 @@
+طريقة إنشاء APK عبر GitHub Actions
+
+1. فك ضغط هذا الملف وارفع محتوياته إلى مستودع GitHub تملكه.
+2. افتح تبويب Actions في المستودع.
+3. اختر Build Mindustry Android APK ثم Run workflow.
+4. عند نجاح البناء، افتح تشغيل workflow المكتمل ونزّل Artifact باسم Mindustry-Android-Arabic-v1-debug-apk.
+
+ملاحظات:
+- هذا الإعداد يبني APK تجريبيًا (Debug) وليس إصدارًا موقّعًا للنشر.
+- لا يضمن نجاح البناء أو اكتمال الترجمة العربية؛ يجب مراجعة سجل البناء واختبار التطبيق على جهاز Android.
+- يحتاج GitHub Actions إلى الاتصال بالإنترنت لتنزيل Gradle ومكتبات المشروع وأدوات Android.
